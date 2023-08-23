@@ -9,7 +9,7 @@ jobs:
       - name: Building Docker Image
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
-          # 涓嬫柟鐨刵ame鏍煎紡涓猴細Docker Hub ID/鑷畾涔夐暅鍍忓悕绉?          
-          name: xx/xx
+          # 下方的name格式为：Docker Hub ID/自定义镜像名称          
+          name: derfrmn/dokoko1
           username: '${{ secrets.DOCKER_USERNAME }}'
           password: '${{ secrets.DOCKER_PASSWORD }}'
